@@ -3,58 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Hoja de Vida</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        img {
-            width: 150px;
-            border-radius: 50%;
-            margin-top: 10px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-        .btn {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn:hover {
-            background: #0056b3;
-        }
-    </style>
+    <title>HOJA DE VIDA</title>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    <div class="container">
-        <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
-        <h1>Tu Nombre</h1>
-        <h2>Desarrollador Web | Diseñador UX/UI</h2>
-        <p><strong>Email:</strong> lufemaga15@email.com</p>
-        <p><strong>Teléfono:</strong> +57 3002365954</p>
-        <p><strong>Ubicación:</strong> Bogota D.C, Colombia</p>
-        <a href="#experiencia" class="btn">Ver Experiencia</a>
-    </div>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="a" class="logo">logo</a>
+            <label for="menu">
+                <img src="imagen/menu.png " class="menu iconos" alt="menu">
+            </label>
+            <nav class="navbar">
+                  <ul>
+                    <li><a href="a"> Inicio</a></li>
+                    <li><a href="a"> Datos Personales</a></li>
+                    <li><a href="a"> Perfil Profesional</a></li>
+                    <li><a href="a"> Competencias</a></li>
+                    <li><a href="a"> Experiencia Laboral</a></li>
+                    <li><a href="a"> Referencias Personales</a></li>
+                 </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Datos Personales</h1>
+                
+                <li><span> Cra 74 bis No 64F-68</span></li>
+                <li><span> Bogota D.C / Colombia</span></li>
+                <li><span> +57 3002365954</span></li>
+                <li><span> Correo: lufemaga15@gmail.com</span></li>
+               
+                
+            </div>
+        </div>    
+    </header>
+
+    <section class="about container">
+        <div class="about-img">
+            <img src="imagen/perfil.jpeg" alt="">
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Perfil Profesional</h1>
+                <h2>Desarrollador de Software y Asistente Administrativa</h2>
+                <p>
+                    Soy una mujer responsable, organizada y proactiva,
+                     con la capacidad de gestionar múltiples responsabilidades de manera eficiente.
+                      Actualmente, estudio Desarrollo de Software y Desarrollo Publicitario, 
+                    lo que me permite combinar habilidades tecnológicas y creativas. 
+                    <br>
+                    <br>
+                    Trabajo como Asistente Administrativa y también lidero mi
+                     propio emprendimiento, demostrando iniciativa, resiliencia y espíritu emprendedor.
+                      Me destaco por mi capacidad de aprendizaje, manejo del tiempo y resolución de problemas. 
+                    Me apasiona la innovación, la optimización de procesos y el crecimiento personal y profesional.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <main class="Competencias container" style="text-align: left;">
+        <h1>Competencias</h1>
+       
+        <div class="Competencias-content">
+            
+            <div class="Competencias-1">
+            <div class="Competencias-text">
+          </div>
+           
+                <p>
+                    Me caracterizo por mi capacidad de adaptación y organización,
+                    lo que me permite equilibrar mis estudios, trabajo y negocio de manera efectiva.
+                    Soy resolutiva y siempre busco optimizar procesos. 
+                    Cuento con habilidades para el trabajo en equipo, 
+                    la comunicación asertiva y el liderazgo. 
+                    <br>
+                    <br>
+                    Aprendo con rapidez y aplico mis conocimientos en tecnología,
+                    desarrollo publicitario y administración para generar soluciones innovadoras.
+                    Mi enfoque combina creatividad y análisis, 
+                    permitiéndome enfrentar desafíos con determinación y compromiso.
+                </p>
+                <ul style="list-style-type: disc; padding-left: 20px;">
+                    <li>Me adapto fácilmente a diferentes entornos y desafíos.</li>
+                    <li>Organizo y gestiono eficientemente mi tiempo y tareas.</li>
+                    <li>Tengo habilidades para la resolución de problemas de manera creativa y efectiva.</li>
+                    <li>Trabajo bien en equipo y me comunico de manera asertiva.</li>
+                    <li>Aprendo rápidamente y me mantengo en constante actualización.</li>
+                    <li>Soy proactiva y siempre busco mejorar y optimizar procesos.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    
+    <main class="Experiencia Laboral container" style="text-align: right;">
+        <h1>Experiencia Laboral</h1>
+       
+        <div class="Experiencia Laboral-content">
+            
+            <div class="Experiencia Laboral-1">
+            <div class="Experiencia Laboral-txt">
+            <h3> Asistente Administrativa </h3>
+            <p>
+                Giga Source Technology de Colombia S.A.S | 2022 - Actualidad
+                    <nav class="navbar">
+                        <ul>
+                        <li> Gestión y organización de documentación administrativa y contable.</li>
+                        <li> Apoyo en la coordinación de procesos internos y operativos.</li>
+                        <li> Manejo de herramientas ofimáticas y plataformas digitales para la administración de información.</li>
+                        <li> Comunicación y atención a clientes, proveedores y colaboradores.</li>
+                        <li> Optimización de procesos administrativos para mejorar la eficiencia operativa.</li>
+                        <li> Seguimiento y control de tareas administrativas para el cumplimiento de objetivos organizacionales.</li>
+                        </ul>
+                    </nav> 
+                </div>            
+            </div>                
+        </div> 
+        <br>
+    </main>   
+
+    <main class="Referencias Personales container" style="text-align: center;">
+        <h1>Referencias Personales</h1>
+
+        <div class="Referencias Personales-content">
+           
+
+            <div class="Referencias Personales-1">
+                <div class="Referencias Personales-txt">
+                <p>
+                <br>
+                    Maria Eugenia Garzon Luna
+                    <nav class="navbar">
+                        <ul>
+                            <li> Operario de Maquina Plana.</li>
+                            <li> Madre Tel: 3212821377.</li>
+                       </ul>
+                    <br>
+                
+                       Maria Del pilar Luna
+                    <nav class="navbar">
+                        <ul>
+                            <li>Funcionaria de integracion Social.</li>
+                            <li> Madre Tel: 3263392524.</li>
+                       </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+      </main>
+
+    
 </body>
 </html>
